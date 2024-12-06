@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Minesweeper</title>
+    <link rel="stylesheet" href="styles/minesweeper.css">
+</head>
+<body>
+    <header>
+        <a href="homepage.html">
+            <img src="./assets/bulldogs.png" alt="Fresno State Logo" id="logo">
+        </a>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <main>
+        <section id="contact-info">
+            <h2>Marlon "Zeke" Branham</h2>
+            <img src="./assets/ZekeProfilePic.jpg" alt="Marlon Branham" id="profile-pic" width = 400px>
+            <p>Solo-Developer</p>
+            <p>Senior Computer Science B.S <br> California State University, Fresno</p>
+            
+            <p>Email: <a href="mailto:zekebranham@mail.fresnostate.edu">zekebranham@mail.fresnostate.edu</a></p>
+            <p>Phone: <a href="tel:+14807734300">(480) 773-4300</a></p>
+        </section>
+        
+        <div id="help-buttons">
+            <button onclick="navigateTo('homepage.html')">Return to Homepage</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minesweeper Project | Fresno State</p>
+    </footer>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
